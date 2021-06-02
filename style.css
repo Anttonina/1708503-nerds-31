@@ -1,0 +1,241 @@
+
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    weight: 400;
+    color: #283136;
+    text-transform: normal;
+    background-color: basic-white;
+
+}
+
+a {
+        text-decoration: none;
+}
+
+img {
+        max-width: 100%;
+        height: auto;
+
+      }
+
+.visually-hidden {
+display: none;
+}
+
+/*Header*/
+
+.main-header-logo img:hover {
+opacity: 0.7;
+}
+
+.main-header-logo img:focus {
+  opacity: 0.3;
+}
+
+.main-navigation {
+font-size : 16px;
+line-height: 30px;
+color: 000000;
+background-color: EEEEEE;
+}
+
+.features {
+background-color: EEEEEE;
+}
+
+.site-navigation {
+list-style: none;
+}
+.main-header a:hover {
+  color: #FB565A;
+}
+
+.main-header a:focus {
+  color: #A6A6A6;
+}
+
+.main-header a:active {
+  color: #000000 ;
+text-decoration: underline #FB565A;
+}
+
+/*Features*/
+
+.features-list {
+        list-style: none;
+}
+
+.features-list-item .headline {
+        font-size:  55px;
+        font-weight: 500;
+        line-height: 55px;
+        color: #000000;
+}
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: #FFFFFF;
+  background-color:  #FB565A;
+  vertical-align: middle;
+  text-align: Center
+  text-transform: uppercase;
+  border:  none;
+  font-style: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.button:hover {
+  background-color: #E74246;
+}
+
+.button:focus {
+background-color: #D7373B;
+opacity: 30%;
+}
+
+/*Services*/
+
+.services h3 {
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+color: #000000;
+text-transform: uppercase;
+}
+
+.button.button-green {
+  background-color:#00CA74;
+}
+.button.button-green:hover {
+  background-color: #00BC6C;
+}
+.button.button-green:focus {
+  background-color: #00AA62;
+  opacity: 30%;
+
+}
+
+.button.button-yellow {
+  background-color: #EFC849;
+}
+
+.button.button-yellow:hover {
+  background-color: #EAB534;
+}
+
+.button.button-yellow:focus {
+  background-color: #EAB534;
+  Opacity: 30%;
+}
+/*About*/
+
+.about.about-services-title {
+
+font-weight: 500;
+font-size: 45px;
+line-height: 45px;
+color: #000000;
+}
+
+.about-services-wrapper p {
+  font-weight: 700;
+text-transform: uppercase;
+}
+
+.slogan p {
+font-weight: 700;
+text-transform: uppercase;
+font-size: 16px;
+line-height: 24px;
+}
+
+.advantages b{
+  font-size: 45px;
+  line-height: 64px;
+  color: #000000;
+}
+
+.advantages-value sup {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 40px;
+
+}
+
+.advantages-headline  {
+ font-size: 16px;
+line-height: 18px;
+}
+
+
+
+/*Clients*/
+
+.clients-list {
+  list-style: none;
+}
+.clients-list-item {
+opacity: 20%;
+}
+.clients-list-item:hover {
+opacity: 100%;
+}
+.clients-list-item:focus {
+opacity: 10%;
+}
+/* Contacts */
+.contacts-wrapper {
+background-color: #FFFFFF;
+color: #666666;
+line height: 18px;
+}
+
+.contacts-title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  Vertical-align: Center;
+}
+.contacts-wrapper p {
+  font-size: 16px;
+line-height: 18px;
+font-weight: 400;
+}
+
+.contacts-phone {
+  color:  inherit;
+}
+
+.footer-social {
+  list-style: none;
+}
+.footer-social-link {
+  width: 81px ;
+  height: 81px;
+  border-radius: 50%;
+  background-color: #E1E1E1;
+}
+.friends {
+color:  #000000;
+font-weight: 700;
+font-size: 36px;
+line-height: 36px;
+}
+
+.discount {
+  font-weight: 400;
+font-size: 16px;
+line-height:  22px;
+color: #444444;
+}
+
+
