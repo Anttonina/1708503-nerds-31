@@ -7,10 +7,36 @@ body {
     font-size: 16px;
     line-height: 24px;
     weight: 400;
-    color: #283136;
+    color: var(--grey);
     text-transform: normal;
-    background-color: basic-white;
+    background-color: var(--white);
 
+}
+
+/*Colors*/
+
+:root {
+
+  --grey: #283136;
+  --light-grey: #EEEEEE;
+  --dark-grey: #666666;
+  --black: #000000;
+  --red: #FB565A;
+  --accent: #A6A6A6;
+  --white: #FFFFFF;
+  --hover-red: #E74246;
+  --focus-red: #D7373B;
+  --green: #00CA74;
+  --green-hover: #00BC6C;
+  --green-focus: #00AA62;
+  --yellow: #EFC849;
+  --yellow-hover:#EAB534;
+  --yellow-focus: #EAB534;
+  --grey-hover: #DFDFDF;
+  --grey-focus: #D5D5D5;
+  --grey-current: #DBDBDB;
+  --link-background: #E1E1E1;
+  --discount: #444444;
 }
 
 a {
@@ -18,7 +44,7 @@ a {
 }
 
 a:visited {
-  color: #283136;
+  color: var(--grey);
 }
 
 img {
@@ -34,7 +60,7 @@ display: none;
 /*Header*/
 
 .main-header {
-  background-color: #EEEEEE;
+  background-color: var(--light-grey);
 }
 
 .main-header-logo img:hover {
@@ -48,12 +74,12 @@ opacity: 0.7;
 .main-navigation {
 font-size : 16px;
 line-height: 30px;
-color: 000000;
-background-color: EEEEEE;
+color: var(--black);
+background-color: var(--light-grey);
 }
 
 .features {
-background-color: EEEEEE;
+background-color: var(--light-grey);
 }
 
 .site-navigation {
@@ -62,16 +88,16 @@ font-weight: 500;
 text-transform: uppercase;
 }
 .main-header a:hover {
-  color: #FB565A;
+  color: var(--red);
 }
 
 .main-header a:focus {
-  color: #A6A6A6;
+  color: var(--accent);
 }
 
 .main-header a:active {
-  color: #000000 ;
-text-decoration: underline #FB565A;
+  color: var(--black) ;
+text-decoration: underline var(--red);
 }
 
 .main-navigation .recycle {
@@ -85,7 +111,7 @@ text-align: right;
 /*Features*/
 
 .features {
-  background-color: #EEEEEE;
+  background-color: var(--light-grey);
 }
 .features-list {
         list-style: none;
@@ -95,7 +121,7 @@ text-align: right;
         font-size:  55px;
         font-weight: 500;
         line-height: 55px;
-        color: #000000;
+        color: var(--black);
 }
 
 
@@ -103,8 +129,8 @@ text-align: right;
 .button {
   font: inherit;
   text-align: center;
-  color: #FFFFFF;
-  background-color:  #FB565A;
+  color: var(--white);
+  background-color: var(--red);
   vertical-align: middle;
   text-align: Center;
   text-transform: uppercase;
@@ -115,16 +141,16 @@ text-align: right;
 }
 
 .button:hover {
-  background-color: #E74246;
+  background-color: var(--hover-red);
 }
 
 .button:focus {
-background-color: #D7373B;
+background-color: var(--focus-red);
 opacity: 30%;
 }
 
 .slide-content .button {
-  color: white;
+  color: var(--white);
 }
 /*Services*/
 
@@ -132,7 +158,7 @@ opacity: 30%;
 font-weight: 700;
 font-size: 24px;
 line-height: 30px;
-color: #000000;
+color: var(--black);
 text-transform: uppercase;
 }
 
@@ -141,27 +167,27 @@ text-transform: uppercase;
 }
 
 .button.button-green {
-  background-color:#00CA74;
+  background-color: var(--green);
 }
 .button.button-green:hover {
-  background-color: #00BC6C;
+  background-color: var(--green-hover);
 }
 .button.button-green:focus {
-  background-color: #00AA62;
+  background-color: var(--green-focus);
   opacity: 30%;
 
 }
 
 .button.button-yellow {
-  background-color: #EFC849;
+  background-color: var(--yellow);
 }
 
 .button.button-yellow:hover {
-  background-color: #EAB534;
+  background-color: var(--yellow-hover);
 }
 
 .button.button-yellow:focus {
-  background-color: #EAB534;
+  background-color: var(--yellow-focus);
   Opacity: 30%;
 }
 /*About*/
@@ -171,7 +197,7 @@ text-transform: uppercase;
 font-weight: 500;
 font-size: 45px;
 line-height: 45px;
-color: #000000;
+color: var(--black);
 }
 
 .about-services-wrapper p {
@@ -189,7 +215,7 @@ line-height: 24px;
 .advantages b{
   font-size: 45px;
   line-height: 64px;
-  color: #000000;
+  color: var(--black);
 }
 
 .advantages-value sup {
@@ -222,13 +248,13 @@ opacity: 10%;
 }
 /* Contacts */
 .contacts-wrapper {
-background-color: #FFFFFF;
-color: #666666;
+background-color: var(--white);
+color: var(--dark-grey);
 line height: 18px;
 }
 
 .contacts-title {
-  color: #000000;
+  color: var(--black);
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
@@ -241,7 +267,7 @@ line-height: 18px;
 font-weight: 400;
 }
 .contacts-wrapper .button {
-  color: white;
+  color: var(--white);
 }
 .contacts-phone {
   color:  inherit;
@@ -254,10 +280,10 @@ font-weight: 400;
   width: 81px ;
   height: 81px;
   border-radius: 50%;
-  background-color: #E1E1E1;
+  background-color: var(--link-background);
 }
 .friends {
-color:  #000000;
+color:  var(--black);
 font-weight: 700;
 font-size: 36px;
 line-height: 36px;
@@ -267,22 +293,22 @@ line-height: 36px;
   font-weight: 400;
 font-size: 16px;
 line-height:  22px;
-color: #444444;
+color: var(--discount);
 }
 
 
 /*Catalog*/
 
 .heading {
-background-color: #EEEEEE;
+background-color: var(--light-grey);
 }
 
 .heading h1 {
-  font-weight 500;
+  font-weight: 500;
 font-size: 55px;
 line-height: 55px;
-background-color: #EEEEEE;
-color: #000000;
+background-color: var(--light-grey);
+color: var(--black);
 }
 .filter legend,
 .sorting legend
@@ -291,19 +317,20 @@ color: #000000;
 font-style: normal;
 font-size: 18px;
 line-height: 30px;
-color: #000000;
+color: var(--black);
 text-transform: uppercase;
 }
 
 .price-controls {
   line-height: 22px;
+  text-transform: uppercase;
 }
 
 .price-controls input {
- background-color: #EEEEEE;
+ background-color: var(--light-grey);
   font-size: 16px;
   line-height: 22px;
-  color: #283136;
+  color: var(--grey);
   text-align: center;
 }
 
@@ -322,26 +349,26 @@ opacity: 30%;
 }
 
 .button.button-grey {
-  background-color: #EEEEEE;
+  background-color: var(--light-grey);
   font-style: 500;
 font-size: 16px;
 line-height: 18px;
-color: #000000;
+color: var(--black);
 }
 
 .button.button-grey:hover {
-background-color: #DFDFDF;
+background-color: var(--grey-hover);
 }
 
 .button.button-grey:focus {
-  background-color: #D5D5D5;
+  background-color: var(--grey-focus);
   opacity: 30%;
 }
 
-/*Soting*/
+/*Sorting*/
 
 .sorting-type a {
-  color: black;
+  color: var(--black);
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
@@ -363,7 +390,7 @@ background-color: #DFDFDF;
 }
 
 .sample-card a {
-  color: #000000;
+  color: var(--black);
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
@@ -371,7 +398,7 @@ background-color: #DFDFDF;
 }
 
 .sample-card p {
-  color: #666666;
+  color: var(--dark-grey);
   line-height: 18px;
 }
 
@@ -382,8 +409,8 @@ line-height:  18px;
 }
 
 .page .button-grey.current {
-  background-color: #FFFFFF;
-  border: 3px solid #DBDBDB;
+  background-color: var(--white);
+  border: 3px solid var(--grey-current);
 }
 
 
