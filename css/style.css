@@ -17,6 +17,10 @@ a {
         text-decoration: none;
 }
 
+a:visited {
+  color: #283136;
+}
+
 img {
         max-width: 100%;
         height: auto;
@@ -28,6 +32,10 @@ display: none;
 }
 
 /*Header*/
+
+.main-header {
+  background-color: #EEEEEE;
+}
 
 .main-header-logo img:hover {
 opacity: 0.7;
@@ -50,6 +58,8 @@ background-color: EEEEEE;
 
 .site-navigation {
 list-style: none;
+font-weight: 500;
+text-transform: uppercase;
 }
 .main-header a:hover {
   color: #FB565A;
@@ -64,8 +74,19 @@ list-style: none;
 text-decoration: underline #FB565A;
 }
 
+.main-navigation .recycle {
+font-style: 500;
+font-size: 16px;
+line-height: 30px;
+text-transform: uppercase;
+text-align: right;
+}
+
 /*Features*/
 
+.features {
+  background-color: #EEEEEE;
+}
 .features-list {
         list-style: none;
 }
@@ -77,16 +98,18 @@ text-decoration: underline #FB565A;
         color: #000000;
 }
 
+
+
 .button {
   font: inherit;
   text-align: center;
   color: #FFFFFF;
   background-color:  #FB565A;
   vertical-align: middle;
-  text-align: Center
+  text-align: Center;
   text-transform: uppercase;
   border:  none;
-  font-style: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 18px;
 }
@@ -100,6 +123,9 @@ background-color: #D7373B;
 opacity: 30%;
 }
 
+.slide-content .button {
+  color: white;
+}
 /*Services*/
 
 .services h3 {
@@ -108,6 +134,10 @@ font-size: 24px;
 line-height: 30px;
 color: #000000;
 text-transform: uppercase;
+}
+
+.services-list {
+  list-style:none;
 }
 
 .button.button-green {
@@ -136,7 +166,7 @@ text-transform: uppercase;
 }
 /*About*/
 
-.about.about-services-title {
+.about .about-services-title {
 
 font-weight: 500;
 font-size: 45px;
@@ -210,7 +240,9 @@ line height: 18px;
 line-height: 18px;
 font-weight: 400;
 }
-
+.contacts-wrapper .button {
+  color: white;
+}
 .contacts-phone {
   color:  inherit;
 }
@@ -239,3 +271,121 @@ color: #444444;
 }
 
 
+/*Catalog*/
+
+.heading {
+background-color: #EEEEEE;
+}
+
+.heading h1 {
+  font-weight 500;
+font-size: 55px;
+line-height: 55px;
+background-color: #EEEEEE;
+color: #000000;
+}
+.filter legend,
+.sorting legend
+ {
+  font-weight: 700;
+font-style: normal;
+font-size: 18px;
+line-height: 30px;
+color: #000000;
+text-transform: uppercase;
+}
+
+.price-controls {
+  line-height: 22px;
+}
+
+.price-controls input {
+ background-color: #EEEEEE;
+  font-size: 16px;
+  line-height: 22px;
+  color: #283136;
+  text-align: center;
+}
+
+.filter-category ul,
+.sorting ul {
+  list-style:none;
+  line-height: 20px;
+}
+
+.grid-radio input:disabled {
+opacity: 30%;
+}
+
+.checkbox-properties input:disabled {
+  opacity: 30%;
+}
+
+.button.button-grey {
+  background-color: #EEEEEE;
+  font-style: 500;
+font-size: 16px;
+line-height: 18px;
+color: #000000;
+}
+
+.button.button-grey:hover {
+background-color: #DFDFDF;
+}
+
+.button.button-grey:focus {
+  background-color: #D5D5D5;
+  opacity: 30%;
+}
+
+/*Soting*/
+
+.sorting-type a {
+  color: black;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  opacity: 30%;
+}
+
+.sorting-type a:hover {
+  opacity: 60%;
+}
+
+.sorting-type a:focus,
+.sorting-type a:active,
+.sorting-type a.grey {
+  opacity: 100%;
+}
+
+.samples-list {
+  list-style: none;
+}
+
+.sample-card a {
+  color: #000000;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sample-card p {
+  color: #666666;
+  line-height: 18px;
+}
+
+.page .button {
+  font-weight:  500;
+font-size: 16px;
+line-height:  18px;
+}
+
+.page .button-grey.current {
+  background-color: #FFFFFF;
+  border: 3px solid #DBDBDB;
+}
+
+.numeration {
+  list-style: none;
+}
